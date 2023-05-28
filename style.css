@@ -1,0 +1,128 @@
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782)!important;
+
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    font-weight: 600px;
+    padding: 0px 15px;
+}
+.navbar-nav .nav-item .nav-link.active{
+background: red;
+border-radius: 4px;
+
+
+}
+/*--banner section start here--*/
+
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782)!important;
+    color: white;
+}
+#banner a img{
+    width: 60px;
+    margin-right: 5px;
+}
+#banner a{
+    color: white;
+    text-decoration: none;
+}
+.wave1-banner{
+    width: 100%;
+}
+
+
+/*--banner section end here--*/
+
+/*--services section start here--*/
+
+.title{
+    text-align: center;
+}
+
+.title:after{
+    content:'';
+    display:block;
+    background:#7b1798;;
+    height: 3px;
+    width: 200px;
+    margin: auto;
+    transform: translateY(30px);
+
+}
+.services-box img{
+    width: 100px;
+}
+.services-button{
+    background-image: linear-gradient(to right,#a517ba,#5f1782)!important;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+}
+/*--services section end here--*/
+
+
+/*-- about section start here--*/
+
+#about{
+    background: #f8f9fa;;
+}
+
+
+/*-- about section end here--*/
+
+/*--testimoals section start here--*/
+
+.clients img{
+    width: 70px;
+}
+.clients{
+    border-left:4px solid #7b1798;
+}
+/*--testimoals section end here--*/
+
+/*---social meadia section start here---*/
+#social-medeia img{
+     width: 60px;
+     transition: 0.5s;
+}
+#social-medeia img:hover{
+    transform:translateY(-10px)
+}
+#social-medeia{
+    background: #f8f9fa;
+}
+
+/*---social meadia section end here---*/
+
+/*--footer section start here--*/
+
+#footer{
+    background-image: linear-gradient(to right,#a517ba,#5f1782)!important;
+}
+.footer-box .fas{
+    background-image: linear-gradient(to right,#a517ba,#5f1782)!important;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    padding-top: 7px;
+    margin-right: 8px;
+    text-align: center;
+}
+.footer-box input{
+    border-radius: 0;
+    border: none;
+}
+.footer-box button{
+    background-image: linear-gradient(to right,#a517ba,#5f1782)!important;
+    border: none;
+    padding: 8px 15px;
+    margin-top:15px;
+}
+#footer .half{
+    font-size: 20px;
+}
+/*--footer section end here--*/
+
